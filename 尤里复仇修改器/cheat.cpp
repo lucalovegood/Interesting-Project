@@ -30,7 +30,6 @@ int main()
         addr += 0x30C;
         WriteProcessMemory(hprocess, (LPVOID)addr, &money, 4, 0);
 
-        //cout << hex <<addr << endl;
         cout << "Successed!" << endl;
 
 		return 0;
